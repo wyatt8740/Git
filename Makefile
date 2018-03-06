@@ -17,7 +17,7 @@ GLKMAKEFILE = Make.$(GLK)
 # Step 2: pick a C compiler.
 
 # Generic C compiler
-CC = cc -O2
+CC = i686-w64-mingw32-gcc -O2
 OPTIONS = 
 
 # Best settings for GCC 2.95. This generates faster code than
