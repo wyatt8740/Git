@@ -5,8 +5,8 @@
 
 # Note: when using xglk, do NOT define USE_MMAP in step 2, below.
 
-GLK = cheapglk
-#GLK = glkterm
+#GLK = cheapglk
+GLK = glkterm
 #GLK = xglk
 
 GLKINCLUDEDIR = ../$(GLK)
